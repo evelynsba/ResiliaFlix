@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResiliaFlix</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/icon.png" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-black">
+            <div class="container-fluid">
+                <img src="assets/logo.png" class="logo-nav ms-4">
+                <button class="navbar-toggler btn-danger" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active ms-4" aria-current="page" href="#">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active ms-4" aria-current="page" href="#">Contato</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex mx-4">
+                        <input class="nav-form ps-3 rounded-3 border-0" type="search" placeholder="Buscar"
+                            aria-label="Search">
+                        <button type="submit" class="botao-pesquisa btn-danger p-1 ms-2 border-0 rounded-3"><span
+                                class="material-icons">search</span></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="carrossel">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://wallpaperaccess.com/full/168263.jpg" class="d-block w-100 imagem-carrossel1"
+                            alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABbb7JiDKQBHWhUIK2JAbRONWZ1FhFIILcjjk1DUwMPHQQ8oRrjDCTDJXcQWl-bUtYxG7eRbJB_D6iww9LkOLhzYoZ2TO.jpg?r=52e"
+                            class="d-block w-100 imagem-carrossel2" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://wallpaperaccess.com/full/4251949.jpg" class="d-block w-100 imagem-carrossel3"
+                            alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section class="formulario d-flex justify-content-between pt-5 mx-4">
+            <h1 class="text-light text-start text-wrap titulo-form">Todos os filmes mais recentes no conforto da sua casa, aproveite!</h1>
+            <form class="d-flex flex-column">
+                <div class="mb-3">
+                  <input type="email" class="form-control input-form ps-3 rounded-3 border-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail">
+                </div>
+                <div class="mb-3">
+                  <input type="password" class="form-control input-form ps-3 rounded-3 border-0" id="exampleInputPassword1" placeholder="Senha">
+                </div>
+                <button type="submit" class="btn btn-danger mb-3">Entrar</button>
+                <button type="submit" class="btn btn-danger">Cadastrar</button>
+                <a href="#" class="link-danger text-center mt-1">Recuperar senha</a>
+              </form>
+        </section>
+        <footer>
+            <div class="text-center p-4 bg-black text-light fixed-bottom">
+                © ResiliaFlix 2021
+              </div>
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

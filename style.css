@@ -1,0 +1,57 @@
+body {
+    background: #262626;
+}
+.logo-nav{
+    height: 50px;
+}
+.nav-form {
+    outline: 0;
+}
+.nav-form::placeholder {
+    color: black;
+}
+.botao-pesquisa {
+    width: 60px;
+}
+.material-icons {
+    color:white;
+}
+.imagem-carrossel1 {
+    object-fit: cover;
+    object-position: 50% 10%;
+    height: 400px;
+}
+.imagem-carrossel2 {
+    object-fit: cover;
+    object-position: 50% 70%;
+    height: 400px;
+}
+.imagem-carrossel3 {
+    object-fit: cover;
+    object-position: 50% 40%;
+    height: 400px;
+}
+.titulo-form {
+    width: 40%;
+}
+.input-form {
+    width: 270px;
+}
+.input-form::placeholder {
+    color: black;
+}
+@media (max-width: 600px) {
+    .formulario {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .titulo-form {
+        width: 90%;
+        padding-bottom: 30px;
+    }
+    footer {
+        margin-top: 100px;
+    }
+}
