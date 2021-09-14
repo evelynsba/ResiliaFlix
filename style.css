@@ -19,17 +19,17 @@ body {
 .imagem-carrossel1 {
     object-fit: cover;
     object-position: 50% 10%;
-    height: 400px;
+    height: 350px;
 }
 .imagem-carrossel2 {
     object-fit: cover;
     object-position: 50% 70%;
-    height: 400px;
+    height: 350px;
 }
 .imagem-carrossel3 {
     object-fit: cover;
     object-position: 50% 40%;
-    height: 400px;
+    height: 350px;
 }
 .titulo-form {
     width: 40%;
