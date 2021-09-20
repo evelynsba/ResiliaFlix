@@ -67,3 +67,24 @@ body {
 ul{
     list-style: none;
 }
+
+        /* Pagina de recuperação de senha */
+
+.form-recuperacao-senha {
+    margin: 15% 10%;
+
+}
+
+.e-mail-usuario {
+    color:white;
+}
+
+#e-mail-usuario {
+    width: 100%;
+    padding: 2%;
+}
+
+.teste {
+    width: 100px;
+    height: 30px;
+}
