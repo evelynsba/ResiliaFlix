@@ -28,13 +28,18 @@ body {
 .botoes-login {
     width: 45%;
 }
-.imagem-carrosselinicial-avengers{
-    
-        object-fit: cover;
-        
-}
-h1{
+
+h2{
     color: aliceblue;
+    padding-left: 20px;
+}
+.imagem-acao{
+    display: flex;
+    object-fit: scale-down;
+    object-position: 0 50%;
+    height: 240px;
+    padding-left: 30px;
+    
 }
 @media (max-width: 600px) {
     .formulario {
