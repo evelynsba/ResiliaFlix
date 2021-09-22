@@ -43,6 +43,9 @@ body {
 .botoes-login {
     width: 45%;
 }
+footer {
+    margin-top: 100px;
+}
 @media (max-width: 600px) {
     .formulario {
         flex-direction: column;
@@ -69,4 +72,14 @@ body {
 }
 ul{
     list-style: none;
+}
+ /* Página de busca de filme */
+.botao-busca-filme {
+    width: 270px;
+}
+.resposta-api {
+    flex-wrap: wrap;
+}
+#posterApi {
+    float: left;
 }
