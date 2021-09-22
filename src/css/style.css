@@ -55,14 +55,14 @@ body {
         margin-top: 100px;
     }
 }
-          /* Pagina de contato style */
+/* ****************************** Pagina de contato style ********************************************************* */
 
 .pessoas-style{
-    border: rgb(97, 95, 95) groove;
+    /* border: rgb(97, 95, 95) groove; */
     background-color: transparent;
     max-width: 20rem;
     align-items: center;
-    width: max-content;
+    width: 220px;
     justify-content: center;
 }
 
