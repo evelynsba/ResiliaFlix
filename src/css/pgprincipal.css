@@ -1,0 +1,45 @@
+body {
+    background: #262626;
+}
+.logo-nav{
+    height: 50px;
+}
+.nav-form {
+    outline: 0;
+}
+.nav-form::placeholder {
+    color: black;
+}
+.botao-pesquisa {
+    width: 60px;
+}
+.material-icons {
+    color:white;
+}
+.titulo-form {
+    width: 40%;
+}
+.input-form {
+    width: 270px;
+}
+.input-form::placeholder {
+    color: black;
+}
+.botoes-login {
+    width: 45%;
+}
+@media (max-width: 600px) {
+    .formulario {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .titulo-form {
+        width: 90%;
+        padding-bottom: 30px;
+    }
+    footer {
+        margin-top: 100px;
+    }
+}
