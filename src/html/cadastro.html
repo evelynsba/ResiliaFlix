@@ -38,36 +38,44 @@
     </header>
     <main>
         <form class="row g-3">
-            <div class="mt-3 col-md-6">
+            <div class="col">
                 <label for="inputName4" class="form-label">Nome</label>
-                <input type="text" class="form-control" id="inputName4">
+                <input type="text" class="form-control" id="inputName4"  placeholder="Nome">
               </div>
-              <div class="col-md-6">
+              <div class="col">
                 <label for="inputSobrenomeS4" class="form-label">Sobrenome</label>
-                <input type="tex" class="form-control" id="inputSobrenome4">
+                <input type="tex" class="form-control" id="inputSobrenome4" placeholder="Sobrenome">
               </div>
-            <div class="col-md-6">
+              </form>
+              <form class="row g-3">
+              <div class="col-md-6">
               <label for="inputEmail4" class="form-label">Email</label>
-              <input type="email" class="form-control" id="inputEmail4">
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
             </div>
             <div class="col-md-6">
               <label for="inputPassword4" class="form-label">Senha</label>
-              <input type="password" class="form-control" id="inputPassword4">
+              <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
             </div>
-            <form method="get" action=".">
-                <label>Cep:
-                <input name="cep" type="text" id="cep" value="" size="10" maxlength="9" /></label><br />
-                <label>Rua:
-                <input name="rua" type="text" id="rua" size="60" /></label><br />
-                <label>Bairro:
-                <input name="bairro" type="text" id="bairro" size="40" /></label><br />
-                <label>Cidade:
-                <input name="cidade" type="text" id="cidade" size="40" /></label><br />
-                <label>Estado:
-                <input name="uf" type="text" id="uf" size="2" /></label><br />
-                <label>IBGE:
-                <input name="ibge" type="text" id="ibge" size="8" /></label><br />
-              </form>
+            <div class="col-md-6">
+                <label for="inputAddress" class="form-label">Rua</label>
+                <input type="text" class="form-control" id="rua" placeholder="Rua">
+              </div>
+              <div class="col-md-6">
+                <label for="inputAddress2" class="form-label">Bairro</label>
+                <input type="text" class="form-control" id="bairro" placeholder="Bairro">
+              </div>
+              <div class="col-md-6">
+                <label for="inputCity" class="form-label">Cidade</label>
+                <input type="text" class="form-control" id="cidade"  placeholder="Cidade">
+              </div>
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">Estado</label>
+                <input type="text"  id="uf" class="form-control" placeholder="Estado">
+              </div>
+              <div class="col-md-2">
+                <label for="inputZip" class="form-label">Cep</label>
+                <input type="text" class="form-control" id="cep" placeholder="CEP" value="" >
+              </div>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="gridCheck">
                 <label class="form-check-label" for="gridCheck">
@@ -76,7 +84,7 @@
               </div>
             </div>
             <div class="col-12">
-              <button type="submit" class="btn btn-primary">Sign in</button>
+              <button type="submit" class="btn btn-primary">Cadastrar</button>
             </div>
           </form>
     </main>
