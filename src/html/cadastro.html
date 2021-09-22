@@ -5,15 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResiliaFlix</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="../assets/icon.png" />
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <boyd>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-black">
             <div class="container-fluid">
-                <img src="./src/assets/logo.png" class="logo-nav ms-4">
+                <img src="../assets/logo.png" class="logo-nav ms-4">
                 <button class="navbar-toggler btn-danger" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -33,15 +37,15 @@
         </nav>
     </header>
     <main>
-        <div class="row g-3">
-            <div class="col">
-              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-            </div>
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-            </div>
-          </div>
-          <form class="row g-3">
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="inputName4" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="inputName4">
+              </div>
+              <div class="col-md-6">
+                <label for="inputSobrenomeS4" class="form-label">Sobrenome</label>
+                <input type="tex" class="form-control" id="inputSobrenome4">
+              </div>
             <div class="col-md-6">
               <label for="inputEmail4" class="form-label">Email</label>
               <input type="email" class="form-control" id="inputEmail4">
@@ -55,7 +59,7 @@
               <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
             </div>
             <div class="col-12">
-              <label for="inputAddress2" class="form-label">Endereço 2</label>
+              <label for="inputAddress2" class="form-label">Complemento</label>
               <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
             </div>
             <div class="col-md-6">
@@ -65,19 +69,35 @@
             <div class="col-md-4">
               <label for="inputState" class="form-label">Estado</label>
               <select id="inputState" class="form-select">
-                <option selected>Choose...</option>
+                <option selected>...</option>
                 <option>AC</option>
                 <option>AL</option>
                 <option>AP</option>
                 <option>AM</option>
                 <option>BA</option>
-                <option>...</option>
-                <option>...</option>
-                <option>...</option>
-                <option>...</option>
-                <option>...</option>
-                <option>...</option>
-                <option>...</option>
+                <option>CE</option>
+                <option>DF</option>
+                <option>ES</option>
+                <option>GO</option>
+                <option>MA</option>
+                <option>MT</option>
+                <option>MS</option>
+                <option>MG</option>
+                <option>PA</option>
+                <option>PB</option>
+                <option>PR</option>
+                <option>PE</option>
+                <option>PI</option>
+                <option>RJ</option>
+                <option>RN</option>
+                <option>RS</option>
+                <option>RO</option>
+                <option>RR</option>
+                <option>SC</option>
+                <option>SP</option>
+                <option>SE</option>
+                <option>TO</option>
+
 
               </select>
             </div>
