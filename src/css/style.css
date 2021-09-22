@@ -40,6 +40,9 @@ body {
 .input-form::placeholder {
     color: black;
 }
+.botoes-login {
+    width: 45%;
+}
 @media (max-width: 600px) {
     .formulario {
         flex-direction: column;
