@@ -58,7 +58,16 @@ body {
         margin-top: 100px;
     }
 }
-          /* Pagina de contato style */
+/* ****************************** Pagina de contato style ********************************************************* */
+
+.pessoas-style{
+    /* border: rgb(97, 95, 95) groove; */
+    background-color: transparent;
+    max-width: 20rem;
+    align-items: center;
+    width: 220px;
+    justify-content: center;
+}
 
 .pessoas{
     border-radius: 50%;
@@ -66,7 +75,19 @@ body {
 }
 .contatos{
     color: aliceblue;
+    /* max-width:18rem; */
 }
-ul{
+.redes-sociais{
     list-style: none;
+    text-align:left;
+}
+.redes-sociais a{
+    color: aliceblue;
+    text-decoration: none;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.redes-sociais a:hover{
+    cursor: pointer;
+    color: rgb(97, 95, 95);
 }
