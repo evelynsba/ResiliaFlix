@@ -101,16 +101,6 @@ h2{
 }
 
 @media (max-width: 600px) {
-    .formulario {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-    .titulo-form {
-        width: 90%;
-        padding-bottom: 30px;
-    }
     footer {
        margin-top: 100px;
     }

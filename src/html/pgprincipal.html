@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="../css/pgprincipal.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../assets/icon.png" />
     <title>ResiliaFlix: Pagina Principal</title>
 </head>
@@ -74,57 +75,71 @@
     </div>
 
       
-    <h2><br><span style="color: rgb(248, 212, 52);" > Resilia </span>Ação & Aventura</h2>
+    <h2>Ação & Aventura</h2>
     <br>
     <div class="caroussel">
-      <div><img src="../assets/filmes/acao1.jpg"></div>
-      <div><img src="../assets/filmes/acao2.jpg"></div>
-      <div><img src="../assets/filmes/acao3.jpg"></div>
-      <div><img src="../assets/filmes/acao4.jpg"></div>
-      <div><img src="../assets/filmes/acao5.jpg"></div>
-      <div><img src="../assets/filmes/acao6.jpg"></div>
-      <div><img src="../assets/filmes/acao7.jpg"></div>
-      <div><img src="../assets/filmes/acao8.jpg"></div>
-      <div><img src="../assets/filmes/acao9.jpg"></div>
-      <div><img src="../assets/filmes/acao10.jpg"></div>
+      <div><img data-bs-toggle="modal"
+        data-bs-target="#exampleModal" onclick="filmesPagina('Avengers: Endgame')" src="../assets/filmes/acao1.jpg"></div>
+      <div><img data-bs-toggle="modal"
+        data-bs-target="#exampleModal" onclick="filmesPagina('Aquaman')" src="../assets/filmes/acao2.jpg"></div>
+      <div><img data-bs-toggle="modal"
+        data-bs-target="#exampleModal" onclick="filmesPagina('Deadpool')" src="../assets/filmes/acao3.jpg"></div>
     </div>
 
-    <h2><br><span style="color: red;" > Resilia </span>Suspense & Terror</h2>
+    <h2>Suspense & Terror</h2>
     <br>
     <div class="caroussel">
-      <div><img src="../assets/filmes/terror1.jpg"></div>
-      <div><img src="../assets/filmes/terror2.jpg"></div>
-      <div><img src="../assets/filmes/terror3.jpg"></div>
-      <div><img src="../assets/filmes/terror4.jpg"></div>
-      <div><img src="../assets/filmes/terror5.jpg"></div>
-      <div><img src="../assets/filmes/terror6.jpg"></div>
-      <div><img src="../assets/filmes/terror7.jpg"></div>
-      <div><img src="../assets/filmes/terror8.jpg"></div>
-      <div><img src="../assets/filmes/terror9.jpg"></div>
-      <div><img src="../assets/filmes/terror10.png"></div>
+      <div><img data-bs-toggle="modal"
+        data-bs-target="#exampleModal" onclick="filmesPagina('The nun')" src="../assets/filmes/terror1.jpg"></div>
+      <div><img data-bs-toggle="modal"
+        data-bs-target="#exampleModal" onclick="filmesPagina('The colony')" src="../assets/filmes/terror2.jpg"></div>
+      <div><img  data-bs-toggle="modal"
+        data-bs-target="#exampleModal" onclick="filmesPagina('The purge: Anarchy')" src="../assets/filmes/terror3.jpg"></div>
     </div>
 
-    <h2><br><span style="color: rgb(35, 104, 252);" > Resilia </span>Comédia</h2>
+    <h2>Comédia</h2>
     <br>
     <div class="caroussel">
-      <div><img src="../assets/filmes/comedia1.jpg"></div>
-      <div><img src="../assets/filmes/comedia2.jpg"></div>
-      <div><img src="../assets/filmes/comedia3.jpg"></div>
-      <div><img src="../assets/filmes/comedia4.jpg"></div>
-      <div><img src="../assets/filmes/comedia5.jpg"></div>
-      <div><img src="../assets/filmes/comedia6.jpg"></div>
-      <div><img src="../assets/filmes/comedia7.jpg"></div>
-      <div><img src="../assets/filmes/comedia8.jpg"></div>
-      <div><img src="../assets/filmes/comedia9.jpg"></div>
-      <div><img src="../assets/filmes/comedia10.jpg"></div>
+      <div><img  data-bs-toggle="modal"
+        data-bs-target="#exampleModal" onclick="filmesPagina('White Chicks')" src="../assets/filmes/comedia1.jpg"></div>
+      <div><img  data-bs-toggle="modal"
+        data-bs-target="#exampleModal" onclick="filmesPagina('Scary Movie')" src="../assets/filmes/comedia2.jpg"></div>
+      <div><img data-bs-toggle="modal"
+        data-bs-target="#exampleModal" onclick="filmesPagina('American pie')" src="../assets/filmes/comedia3.jpg"></div>
     </div>
-    <br><br><br>
+      
     <footer>
-        <div class="text-center p-4 bg-black text-light sticky-bottom mt-3">
+        <div class="text-center p-4 bg-black text-light fixed-bottom mt-5">
             © ResiliaFlix 2021
         </div>
     </footer>
 
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="tituloApi"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div>
+                    <div id="posterApi"></div>
+                    <div>
+                        <h3 id="diretorApi"></h3>
+                        <h3 id="anoApi"></h3>
+                        <h3 id="generoApi"></h3>
+                        <h3 id="lancamentoApi"></h3>
+                        <h3 id="sinopseApi"></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
@@ -141,7 +156,9 @@
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
-    <script src="../js/pgprincipal.js">
-    </script>
+    <script src="../js/pgprincipal.js"></script>
+    <script src="../js/buscaApiOmdb/controller.js"></script>
+    <script src="../js/buscaApiOmdb/model.js"></script>
+    <script src="../js/buscaApiOmdb/view.js"></script>
 </body>
 </html>

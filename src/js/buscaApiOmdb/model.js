@@ -15,4 +15,10 @@ async function sendRequest() {
         tituloErrado(error)
     }
 }
-
+async function filmesPagina(filme) {
+    let apiKey = "96d65f25";
+    let apiKeyFilme = await fetch (`http://www.omdbapi.com/?i=tt3896198&apikey=${apiKey}&t=${filme}`); 
+    let data = await apiKeyFilme.json();
+    console.log(data)
+    mostrarFilme(data)
+}
