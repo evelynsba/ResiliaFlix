@@ -41,7 +41,7 @@ body {
     color: black;
 }
 .botoes-login {
-    width: 45%;
+    width: 110px;
 }
 footer {
     margin-top: 100px;
@@ -61,10 +61,10 @@ footer {
         margin-top: 100px;
     }
 }
-/* ****************************** Pagina de contato style ********************************************************* */
+
+/* Pagina de contato style */
 
 .pessoas-style{
-    /* border: rgb(97, 95, 95) groove; */
     background-color: transparent;
     max-width: 20rem;
     align-items: center;
@@ -78,12 +78,13 @@ footer {
 }
 .contatos{
     color: aliceblue;
-    /* max-width:18rem; */
 }
 .redes-sociais{
     list-style: none;
 }
+
  /* Página de busca de filme */
+
 .botao-busca-filme {
     width: 270px;
 }
@@ -105,7 +106,7 @@ footer {
     color: rgb(97, 95, 95);
 }
 
-                                                                    /* Pagina de recuperação de senha */
+ /* Pagina de recuperação de senha */
 
 .form-recuperacao-senha {
     margin: 10% 3%;
@@ -137,7 +138,8 @@ footer {
     text-align: center;
 }
 
-/* ================================== Pagina de cadastro style ========================================= */
+/* Pagina de cadastro style */
+
 .formCadastro {
     width: 30%;
 }
