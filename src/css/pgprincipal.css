@@ -31,16 +31,15 @@ body {
 
 h2{
     color: aliceblue;
-    padding-left: 20px;
+    left: 16%;
+    position: relative;
 }
-.imagem-acao{
-    display: flex;
-    object-fit: scale-down;
-    object-position: 0 50%;
-    height: 240px;
-    padding-left: 30px;
+.caroussel{
+    width: 1000px;
+    margin: 0 auto;
+}
     
-}
+
 @media (max-width: 600px) {
     .formulario {
         flex-direction: column;
