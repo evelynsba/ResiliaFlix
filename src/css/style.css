@@ -134,11 +134,7 @@ footer {
 }
 
 .botao-recuperacao-senha {
-    width: 100px;
-    height: 30px;
-    padding: 0%;
-    margin: 1% 0;
-    text-align: center;
+    width: 250px
 }
 
 /* Pagina de cadastro style */
