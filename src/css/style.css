@@ -82,7 +82,6 @@ footer {
 }
 .redes-sociais{
     list-style: none;
-<<<<<<< HEAD
 }
  /* Página de busca de filme */
 .botao-busca-filme {
@@ -93,7 +92,6 @@ footer {
 }
 #posterApi {
     float: left;
-=======
     text-align:left;
 }
 .redes-sociais a{
@@ -105,5 +103,36 @@ footer {
 .redes-sociais a:hover{
     cursor: pointer;
     color: rgb(97, 95, 95);
->>>>>>> 1e35c8d13475708f7b58d2822835340a97a18436
+}
+
+                                                                    /* Pagina de recuperação de senha */
+
+.form-recuperacao-senha {
+    margin: 10% 3%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 1% 0;
+}
+.p-recuperacao-senha {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.e-mail-usuario {
+    color:white;
+}
+
+#e-mail-usuario {
+    width: 250px;
+    height: 50px;
+}
+
+.botao-recuperacao-senha {
+    width: 100px;
+    height: 30px;
+    padding: 0%;
+    margin: 1% 0;
+    text-align: center;
 }
