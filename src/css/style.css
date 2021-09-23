@@ -82,6 +82,9 @@ footer {
 .redes-sociais{
     list-style: none;
 }
+.card {
+    border: none;
+}
 
  /* Página de busca de filme */
 
