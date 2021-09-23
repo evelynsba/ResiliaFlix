@@ -136,3 +136,8 @@ footer {
     margin: 1% 0;
     text-align: center;
 }
+
+/* ================================== Pagina de cadastro style ========================================= */
+.form-style{
+    width: 400px;
+}
