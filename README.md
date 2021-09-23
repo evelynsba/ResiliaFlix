@@ -21,4 +21,4 @@
  </ul>
  
  <h4>GitHub Pages:</h4>
- <a href="https://evelynsba.github.io/ResiliaFlix/">Clique aqui!</a>
+ <a href="https://evelynsba.github.io/ResiliaFlix/" target="_blank">Clique aqui!</a>
