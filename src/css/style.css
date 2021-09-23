@@ -72,7 +72,16 @@ ul{
 
 .form-recuperacao-senha {
     margin: 15% 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
 
+}
+.p-recuperacao-senha {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 5px;
 }
 
 .e-mail-usuario {
@@ -80,7 +89,7 @@ ul{
 }
 
 #e-mail-usuario {
-    width: 100%;
+    width: 200px;
     padding: 2%;
 }
 
@@ -88,4 +97,6 @@ ul{
     width: 100px;
     height: 30px;
     padding: 0%;
+    margin-top: 5px;
+    text-align: center;
 }
