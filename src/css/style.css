@@ -138,6 +138,17 @@ footer {
 }
 
 /* ================================== Pagina de cadastro style ========================================= */
-.form-style{
-    width: 400px;
+.formCadastro {
+    width: 30%;
 }
+button {
+    background: none;
+    border: none;
+}
+@media (max-width: 600px) {
+    .formCadastro{
+        width: 80%;
+    }
+}
+
+
