@@ -35,7 +35,7 @@ h2{
     position: relative;
 }
 .caroussel{
-    width: 1000px; 
+    /* width: 1000px;  */
     margin: 0 auto; 
 }
 .row{
